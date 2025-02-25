@@ -1,0 +1,254 @@
+/*Reset de CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*---------------------------*/
+/*font-family: "Jersey 15", serif;*/
+
+/* INICIO */
+body {
+    
+    background-color: rgba(70, 73, 73, 0.568);
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+.video-moto{
+    width: 2440px;
+    height: 720px;
+    
+}
+.logomenu img{
+    height: 150px;
+    width: 650px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 150px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 30px;
+    
+}
+
+.inicio h1{
+    font-size: 50px;
+}
+
+.inicio h2{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: repeat(4, 380px);
+    grid-template-areas: 
+    "motomel bajaj cfmoto gilera"
+    "suzuki tvs voge zanella";
+    margin: auto;
+    max-width: 1500px;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.logos img{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 50px;
+}
+
+
+/* FIN INICIO */
+
+/* MOTOS */
+.motos{
+    display: flex;
+    flex-direction: column;
+    width: 890px;
+    height: 800px;
+    
+}
+
+.contenido{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1500px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.imagen {
+    flex: 1;
+}
+
+
+.info{
+    flex: 1;
+    font-size: 30px;
+
+}
+
+.info h2{
+    margin-top: 0;
+}
+
+table{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+table th td {
+    border: 1px solid black;
+}
+
+th td {
+    padding: 8px;
+    text-align: left;
+    
+}
+
+th{
+    background-color: #f4f4f4; 
+    border: 1px solid black;
+}
+
+table td{
+    border: 1px solid black;
+}
+
+/* FIN MOTOS */
+
+/* NOSOTROS */
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    max-width: 1176px;
+    margin: auto;
+}
+
+.nosotros p {
+    font-size: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: repeat(5,500px);
+    justify-content: center;
+    align-items: center;
+    max-width: 1176px;
+    margin: auto;
+}
+
+.grid-area{
+    padding: 40px 20px;
+}
+
+.grid-container img {
+    width: 480px;
+    height: 425px;
+
+}
+
+
+.titulo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.grid-container p {
+    font-size: 25px;
+}
+
+
+/* FIN NOSOTROS */
+
+
+
+/* UBICACION */
+.mapa{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 1500px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.mapa h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+.mapa p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.mapa h2 p{
+    text-align: left;
+}
+
+.mapa img{
+    width: 700px;
+    height: 500px;
+}
+
+/* Cierre UBICACION */
+
+/* CONTACTO */
+
+
+/* FIN CONTACTO */
+
+
+
+/* FOOTER */
+
+.links{
+    text-align: center;
+}
+.links p{
+    text-align: right;
+}
+
+/* FIN FOOTER */
