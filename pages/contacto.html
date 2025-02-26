@@ -35,31 +35,63 @@
     <main>
     <!-- Inicio de formulario -->
         <div class="formulario">
-            <h1>Formulario de contacto!</h1>
-
-            
-            <label for="datos">Nombre y Apellido:</label>
-            <input type="text" name="datos" id="datos">
-
-            <label for="email">Email:</label>
-            <input type="text" name="email" id="email">
-
-            <label for="mensaje">Ingrese su comentario y/o sugerencia</label>
-            <textarea name="mensaje" id="mensaje"></textarea>
-
-            <label for="suscribirse">¿Desea suscribirse a las newslatter?</label>
-            <input type="checkbox" name="suscribirse" id="suscribirse">
-
-            <label for="enviar"></label>
-            <input type="submit" name="enviar" id="enviar">
+            <form class="formulario">
+                <div class="col-md-6">
+                  <label for="inputnombreyapellido" class="form-label">Nombre y Apellido</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputtelefono" class="form-label">Telefono</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col-12">
+                  <label for="inputemails" class="form-label">Email</label>
+                  <input type="email" class="form-control" placeholder="tuemail@gmai.com">
+                </div>
+                <div class="col-12">
+                  <label for="inputdni" class="form-label">DNI</label>
+                  <input type="text" class="form-control" placeholder="Tu número de DNI">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputlocalidad" class="form-label">Localidad</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Ciudad</label>
+                  <select id="inputState" class="form-select">
+                    <option selected></option>
+                    <option>CABA</option>
+                    <option>Provincia de Buenos Aires</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" rows="4" placeholder="Ingrese su mensaje aqui"></textarea>
+                  </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      ¿Desea suscribirse a la newsletter?
+                    </label>
+                  </div>
+                </div>
+                <div class="btnenviar">
+                  <button type="submit" class="btnenviar">Enviar</button>
+                </div>
+              </form>
 
             <!-- <img src="/assets/logos/logo_empresa_bco.png" alt="logo-blanco"> -->
 
+            
+
+        </div>
+        
+        <div class="descripcion">
             <h2>CASA CENTRAL:</h2>
             <p>Calle motera 1234, CABA</p>
 
             <p>contacto@motorcode.com.ar</p>
-
         </div>
         <!-- Fin de formulario -->
     </main>

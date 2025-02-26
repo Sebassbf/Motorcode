@@ -236,8 +236,27 @@ table td{
 /* Cierre UBICACION */
 
 /* CONTACTO */
+.btnenviar{
+    color: blue;
+    
+}
 
+.formulario{
+    display: flex
+}
 
+.formulario{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 9px;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
 /* FIN CONTACTO */
 
 
