@@ -1,0 +1,42 @@
+//Aca va la tipografia con la font family
+
+/*font-family: "Jersey 15", serif;*/
+
+body{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inicio{
+    h1{
+        font-size: 50px;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 50px;
+        text-decoration: underline;
+    }
+}
+
+.info{
+    flex:1;
+    font-size: 30px;
+
+    h2{
+        margin-top: 0;
+    }
+}
+
+.nosotros{
+
+    p{
+        font-size: 20px;
+    }
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 20px;
+}

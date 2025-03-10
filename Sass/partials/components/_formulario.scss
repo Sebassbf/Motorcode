@@ -1,0 +1,22 @@
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    
+    .descripcion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        width: 250px;
+        height: 90px;
+    }
+
+    p{
+        font-size: 30px;
+    }
+}
+

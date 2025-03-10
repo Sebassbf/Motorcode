@@ -1,0 +1,40 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 150px;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    li{
+        a{
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            font-size: 30px;
+        }
+    }
+
+    img{
+        height: 150px;
+        width: 650px;
+    }
+}
+
+.links{
+    text-align: center;
+
+    p{
+        text-align: right;
+    }
+}
+
