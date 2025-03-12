@@ -20,20 +20,26 @@
 
         <header>
             <!-- Barra de navegacion -->
-            <nav class="menu">
-                <img src="../assets/logo.png">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./motos.html">Motos</a></li>
-                    <li><a href="./nosotros.html">Nosotros</a></li>
-                    <li><a href="./ubicacion.html">Ubicacion</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                    
-                </ul>
-            </nav>
-        </header>
+            <nav class="navbar navbar-expand-lg bg-motorcode">
+                <div class="container-fluid">
+                    <img src="../assets/logo.png">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse nav-motorcode" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                      <a class="nav-link active" href="./motos.html">Motos</a>
+                      <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                      <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+                      <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+         </header>
   
-    <main>    
+    <main class="inicio_motos">    
         <h1>Bienvenidos a motos de Calle!</h1>
         <br>
         <h2><p>Las motocicletas de calle son vehiculos diseñados para el desplazamiento en entornos urbanos.Su tamaño compacto de facil maniobrabilidad y bajo consumo de combustible las hacen ideales apra enfrentar el trafico y estacionarse con facilidad</p></h2>
@@ -188,19 +194,21 @@
 
 
     <!-- Pie de pagina -->
-    <footer>
-        <img src="../assets/logo.png" class="logo_empresa">
-
-        <div class="links">
-        <a href="">FACEBOOK</a>
-        <a href="">INSTAGRAM</a>
-
-        <p>contacto@motorcode.com.ar <br> Calle motera 1234, CABA</p>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ft-motorcode">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="#" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <img src="../assets/logo.png" class="logo_empresa">
+          </a>
+          <p class="mb-3 mb-md-0 ">© All rights reserved. Acuña Sebastian for Coderhouse</p>
         </div>
-
-            
-        <p>©All rights reserved. Acuña Sebastian for Coderhouse</p>
-    </footer>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <p>contacto@motorcode.com.ar <br> Calle motera 1234, CABA</p>
+          <li><a href="https://www.facebook.com/?locale2=es_ES&_rdr"><img src="../assets/logos/facebook.png"></a></li>
+          <li><a href="https://www.instagram.com"><img src="../assets/logos/instagram.png"></a></li>
+          <li><a href="https://x.com/?lang=es"><img src="../assets/logos/twitter.png"></a></li>
+        </ul>
+      </footer>
  <!-- Enlace a los scripts de Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

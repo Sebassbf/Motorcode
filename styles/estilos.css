@@ -22,6 +22,17 @@ body {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 576px) {
+  .inicio_motos p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inicio_motos p {
+    font-size: 25px;
+  }
+}
+
 .info {
   flex: 1;
   font-size: 30px;
@@ -42,7 +53,7 @@ body {
 .btnenviar {
   width: 150px;
   height: 30px;
-  background-color: rgb(13, 230, 230);
+  background-color: rgb(30, 250, 67);
   font-size: 20px;
   border-radius: 10px;
 }
@@ -50,6 +61,18 @@ body {
 .inicio video {
   width: 2440px;
   height: 720px;
+}
+@media screen and (max-width: 576px) {
+  .inicio video {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inicio video {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .logos {
@@ -60,6 +83,14 @@ body {
   max-width: 1500px;
   align-items: center;
   justify-items: center;
+}
+@media screen and (max-width: 576px) {
+  .logos {
+    grid-template-columns: repeat(1, 380px);
+    grid-template-areas: "motomel" "bajaj" "cfmoto" "gilera" "suzuki" "tvs" "voge" "zanella";
+    height: 100%;
+    width: 100%;
+  }
 }
 .logos img {
   display: flex;
@@ -83,6 +114,26 @@ body {
   width: 890px;
   height: 800px;
   flex: 1;
+}
+@media screen and (max-width: 576px) {
+  .contenido img {
+    width: 400px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contenido img {
+    width: 400px;
+    height: 350px;
+  }
+}
+.contenido h1 {
+  font-weight: bold;
+}
+@media screen and (max-width: 576px) {
+  .contenido p {
+    font-size: 15px;
+  }
 }
 
 table {
@@ -109,9 +160,21 @@ table th td {
   max-width: 1176px;
   margin: auto;
 }
+@media screen and (max-width: 576px) {
+  .grid-container {
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(1, 500px);
+  }
+}
 .grid-container img {
   width: 480px;
   height: 425px;
+}
+@media screen and (max-width: 576px) {
+  .grid-container img {
+    width: 100%;
+    height: 100%;
+  }
 }
 .grid-container p {
   font-size: 25px;
@@ -147,32 +210,35 @@ table th td {
   width: 700px;
   height: 500px;
 }
+@media screen and (max-width: 576px) {
+  .mapa img {
+    height: 100%;
+    width: 100%;
+  }
+}
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  background-color: black;
-  height: 150px;
+.carrusel-motorcode img {
+  height: 750px;
 }
-.menu ul {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: center;
-  gap: 30px;
+@media screen and (max-width: 576px) {
+  .carrusel-motorcode img {
+    height: 100%;
+    width: 100%;
+  }
 }
-.menu li a {
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  padding: 10px 15px;
-  margin: 0 5px;
-  border-radius: 5px;
+
+.bg-motorcode {
+  background-color: rgb(0, 0, 0);
+}
+.bg-motorcode .nav-link {
+  color: #f9f8fa;
   font-size: 30px;
 }
-.menu img {
-  height: 150px;
-  width: 650px;
+.bg-motorcode .nav-motorcode {
+  justify-content: flex-end;
+}
+.bg-motorcode .nav-link.active {
+  color: #02fb51;
 }
 
 .links {
@@ -180,6 +246,31 @@ table th td {
 }
 .links p {
   text-align: right;
+}
+
+.ft-motorcode {
+  background-color: black;
+}
+.ft-motorcode p {
+  color: white;
+}
+.ft-motorcode a {
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+.ft-motorcode ul img {
+  height: 45px;
+}
+@media screen and (max-width: 576px) {
+  .ft-motorcode {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .ft-motorcode {
+    flex-direction: column;
+  }
 }
 
 .nosotros {

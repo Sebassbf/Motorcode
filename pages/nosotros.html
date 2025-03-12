@@ -20,18 +20,24 @@
 
     <header>
          <!-- Barra de navegacion -->
-        <nav class="menu">
-            <img src="../assets/logo.png">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./motos.html">Motos</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./ubicacion.html">Ubicacion</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                
-            </ul>
-        </nav>
-    </header>
+         <nav class="navbar navbar-expand-lg bg-motorcode">
+            <div class="container-fluid">
+                <img src="../assets/logo.png">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav-motorcode" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link" href="./motos.html">Motos</a>
+                  <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+                  <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+     </header>
 
     <main>
         <div class="nosotros">
@@ -48,59 +54,59 @@
 
 
         <section class=grid-container>
-            <article class="grid-area">
+            <article class="grid-area lider">
                 <img src="../assets/nosotros/lider.jpg" alt="" >
             </article>
 
-            <article class="grid-area">
+            <article class="grid-area p_lider">
                 <p class="titulo">Somos la empresa líder</p>
 
                 <p>Motorcode nació en la ciudad de San Miguel de Tucumán en el año 1988. A mediados de los 90 la empresa inició un proceso de crecimiento por todo el Noroeste argentino que hasta el día de hoy no se detiene. Sumamos nuestra línea de Hogar, Bikes, Store y Seguridad Industrial para que encuentres en Motorcode todo lo que necesitas para tu vida.</p>
             </article>
 
-            <article class="grid-area">
-                <p class="titulo">Apostamos a la calidad y a la tecnología.</p>
+            <article class="grid-area titulo">
+                <p class="titulo p_tecnologia">Apostamos a la calidad y a la tecnología.</p>
 
                 <p>Contamos con talleres especializados y homologados por las mejores marcas del país. El mantenimiento se realiza con repuestos originales cumpliendo con las especificaciones del fabricante.- Somos la red de posventa más grande del país, lo que nos hace referentes tanto en ventas como en el cuidado y la garantía de tu producto. Confiá en nosotros para hacer que tu experiencia de compra supere cualquier expectativa.</p>
             </article>
 
-            <article class="grid-area">
+            <article class="grid-area tecnologia">
                 <img src="../assets/nosotros/tecnologia.jpg" alt="">
             </article>
             
-            <article class="grid-area">
+            <article class="grid-area seguridad">
 
                 <img src="../assets/nosotros/seguridad.jpeg" alt="">
 
             </article>
 
-            <article class="grid-area">
+            <article class="grid-area p_seguridad">
                 <p class="titulo">Priorizamos tu equipamiento y tu seguridad</p>
 
                 <p>Para el trabajo, para viajar, para entrenar. Tu moto es tu compañera de aventuras. En Yuhmak encontrarás los accesorios, la indumentaria, los repuestos y todo el equipamientos que necesitas para disfrutarla a pleno.</p>
 
             </article>
 
-            <article class="grid-area">
+            <article class="grid-area p_llegar">
                 <p class="titulo">Elegí cómo querés llegar</p>
 
                     <p>Contamos con talleres especializados y homologados por las mejores marcas del país. El mantenimiento se realiza con repuestos originales cumpliendo con las especificaciones del fabricante. Somos la red de posventa más grande del país, lo que nos hace referentes tanto en ventas como en el cuidado y la garantía de tu producto. Confiá en nosotros para hacer que tu experiencia de compra supere cualquier expectativa.</p>
 
             </article>
 
-            <article class="grid-area">
+            <article class="grid-area llegar">
 
                 <img src="../assets/nosotros/llegar.jpg" alt="">
 
             </article>
 
-            <article class="grid-area">
+            <article class="grid-area sucursal">
                 
                 <img src="../assets/nosotros/sucursal.jpg" alt="">
 
             </article>
 
-            <article class="grid-area">
+            <article class="grid-area p_sucursal">
 
                 <p class="titulo">Estamos cerca</p>
 
@@ -130,19 +136,21 @@
 
 
         <!-- Pie de pagina -->
-    <footer>
-        <img src="../assets/logo.png" class="logo_empresa">
-
-        <div class="links">
-        <a href="">FACEBOOK</a>
-        <a href="">INSTAGRAM</a>
-
-        <p>contacto@motorcode.com.ar <br> Calle motera 1234, CABA</p>
-        </div>
-
-            
-        <p>©All rights reserved. Acuña Sebastian for Coderhouse</p>
-    </footer>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top ft-motorcode">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="#" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <img src="../assets/logo.png" class="logo_empresa">
+              </a>
+              <p class="mb-3 mb-md-0 ">© All rights reserved. Acuña Sebastian for Coderhouse</p>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <p>contacto@motorcode.com.ar <br> Calle motera 1234, CABA</p>
+              <li><a href="https://www.facebook.com/?locale2=es_ES&_rdr"><img src="../assets/logos/facebook.png"></a></li>
+              <li><a href="https://www.instagram.com"><img src="../assets/logos/instagram.png"></a></li>
+              <li><a href="https://x.com/?lang=es"><img src="../assets/logos/twitter.png"></a></li>
+            </ul>
+          </footer>
   <!-- Enlace a los scripts de Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   

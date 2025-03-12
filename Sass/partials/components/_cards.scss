@@ -2,6 +2,16 @@
     video{
         width: 2440px;
         height: 720px;
+
+        @include mobile{
+            width: 100%;
+            height: 100%;
+        }
+
+        @include tablet{
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 
@@ -16,6 +26,23 @@
     align-items: center;
     justify-items: center;
 
+    @include mobile{
+        grid-template-columns: repeat(1,380px);
+        grid-template-areas: 
+        "motomel" 
+        "bajaj" 
+        "cfmoto" 
+        "gilera"
+        "suzuki"
+        "tvs" 
+        "voge" 
+        "zanella";
+        height: 100%;
+        width: 100%;
+    }
+
+
+    
     img{
         display: flex;
         width: 300px;
@@ -23,6 +50,8 @@
         border:2px solid black;
         margin: 50px;
     }
+
+    
 }
 
 .contenido{
@@ -32,6 +61,10 @@
     max-width: 1500px;
     margin: auto;
     flex-wrap: wrap;
+    
+    @include tablet{
+        
+    }
 
     img{
         display: flex;
@@ -39,9 +72,28 @@
         width: 890px;
         height: 800px;
         flex: 1;
+
+        @include mobile {
+            width: 400px;
+            height: 200px;
+            
+        }
+
+        @include tablet{
+            width: 400px;
+            height: 350px;
+        }
     }
 
+    h1{
+        font-weight: bold;
+    }
 
+    p{
+        @include mobile{
+            font-size: 15px;
+        }
+    }
 }
 
 table{
@@ -71,9 +123,22 @@ table{
     max-width: 1176px;
     margin: auto;
 
+    @include mobile {
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(1,500px);
+        
+    }
+
+    
+
     img{
         width: 480px;
         height: 425px;
+
+        @include mobile {
+            width: 100%;
+            height: 100%;
+        }
     }
 
     p{
@@ -97,6 +162,8 @@ table{
     margin: auto;
     flex-wrap: wrap;
 
+   
+
     h3{
         font-size: 50px;
         text-align: center;
@@ -114,5 +181,23 @@ table{
     img{
         width: 700px;
         height: 500px;
+
+        @include mobile{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+
+.carrusel-motorcode{
+
+    img{
+        height: 750px;
+
+        @include mobile{
+            height: 100%;
+            width: 100%;
+        }
     }
 }

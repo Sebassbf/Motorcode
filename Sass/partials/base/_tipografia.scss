@@ -18,6 +18,21 @@ body{
         font-size: 50px;
         text-decoration: underline;
     }
+
+}
+
+.inicio_motos{
+    p{
+        @include mobile {
+            font-size: 20px
+        }
+
+        @include tablet{
+            font-size: 25px
+        }
+    }
+
+
 }
 
 .info{
