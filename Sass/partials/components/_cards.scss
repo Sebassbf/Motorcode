@@ -4,20 +4,20 @@
         height: 720px;
 
         @include mobile{
-            width: 100%;
-            height: 100%;
+            width: auto;
+            height: 200px;
         }
 
         @include tablet{
-            width: 100%;
-            height: 100%;
+            width: auto;
+            height: 200px;
         }
     }
 }
 
 .logos{
     display: grid;
-    grid-template-columns: repeat(4,380px);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas: 
     "motomel bajaj cfmoto gilera"
     "suzuki tvs voge zanella";
@@ -27,18 +27,7 @@
     justify-items: center;
 
     @include mobile{
-        grid-template-columns: repeat(1,380px);
-        grid-template-areas: 
-        "motomel" 
-        "bajaj" 
-        "cfmoto" 
-        "gilera"
-        "suzuki"
-        "tvs" 
-        "voge" 
-        "zanella";
-        height: 100%;
-        width: 100%;
+        display: block;
     }
 
 
@@ -49,6 +38,11 @@
         height: 200px;
         border:2px solid black;
         margin: 50px;
+
+        @include mobile{
+            height: 150px;
+            width: auto;
+        }
     }
 
     
