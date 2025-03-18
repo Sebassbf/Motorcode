@@ -61,11 +61,25 @@ body {
 }
 
 .btnenviar {
-  width: 150px;
-  height: 30px;
-  background-color: rgb(30, 250, 67);
-  font-size: 20px;
-  border-radius: 10px;
+  background-image: linear-gradient(150deg, rgb(54, 253, 54), rgb(11, 255, 194), rgb(0, 255, 255));
+  font-size: 25px;
+  border-radius: 8px;
+  display: flex;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btnenviar button {
+  background-color: black;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.btnenviar .btnenviar:hover button {
+  background: none;
+}
+.btnenviar .btnenviar:active {
+  transform: scale(0, 5);
 }
 
 .inicio video {
