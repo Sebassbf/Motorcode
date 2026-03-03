@@ -1,24 +1,20 @@
-<h1 align="left">Hoola👋 Que tal?</h1>
+<h1 align="center">Mi primera Pagina Web</h1>
 
 ###
 
-<p align="left">Mi nombre es Sebastian Acuña.</p>
+<p align="left">Pagina web orientada a las características de una moto seleccionada.</p>
 
 ###
 
-<h2 align="left">Tengo 26 años y soy de Buenos Aires , capital federal.</h2>
+<h2 align="left">🎯 Qué hace la web:  permite a los usuarios obtener información de la motocicleta para poder orientarse a la hora de adquirir una, cuenta con un apartado de pestañas de Motos, Nosotros, Ubicación y Contacto.</h2>
 
 ###
 
-<h2 align="left">I code with</h2>
+<h2 align="left">⚙️ Tecnologías usadas (HTML, CSS, JS. GIT, GITHUB, BOOTSTRAP)</h2>
 
 ###
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opera/opera-original.svg" height="40" alt="opera logo"  />
@@ -29,7 +25,11 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="sass logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
 </div>
 
 ###
